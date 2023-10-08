@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Services.css';
 import image1 from '../../assets/image1.webp'
 import image2 from '../../assets/image2.webp'
@@ -10,13 +10,19 @@ import image7 from '../../assets/image7.webp'
 import image8 from '../../assets/image8.webp'
 import { BsFacebook,BsTwitter, BsLinkedin, BsInstagram, BsIndent} from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 const Services = () => {
-  console.log('object')
+  // console.log('object')
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  
   return (
-    <div className='my-4 md:my-8 lg:my-20 mx-2 md:mx-4 lg:mx-8 '>
+    <div className='my-4 md:my-8 lg:my-20 mx-2 md:mx-4 lg:mx-8 ' data-aos='fade-up' >
       <div>
         {/* banner section */}
         <div className='my-2 mx-2 w-full md:w-3/4'>
@@ -31,7 +37,7 @@ const Services = () => {
           </p>
         </div>
         {/* animation section */}
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 lg:gap-6 my-4' >
+        <div data-aos='fade-up' className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 lg:gap-6 my-4' >
           {/* 1st */}
           <div className='relative mt-4 mb-2  md:w-full lg:w-[3/4] md:h-full lg:h-[3/4]  group '>
             <div className="md:hidden">
@@ -363,7 +369,7 @@ All bespoke CMS we build comes with a dashboard so you can monitor the activitie
       </div>
 
       {/*  */}
-       <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+      <div data-aos='fade-up' className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
         <Link
           to=""
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -455,7 +461,7 @@ All bespoke CMS we build comes with a dashboard so you can monitor the activitie
         
       {/*  */}
 
-      <footer className='my-4 md:my-8 lg:my-12'>
+      <footer data-aos='fade-up' className='my-4 md:my-8 lg:my-12'>
         <div className="flex justify-center items-center gap-5">
           <Link> <span><BsFacebook className="text-2xl hover:text-blue-500"/></span> </Link>
           <Link> <span><BsTwitter className="text-2xl hover:text-blue-500"/></span> </Link>

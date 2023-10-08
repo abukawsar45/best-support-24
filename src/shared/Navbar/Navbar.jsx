@@ -50,7 +50,7 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className='flex justify-between items-center bg-base-100 text-font'>
+      <div data-aos='fade-down' className='flex justify-between items-center bg-base-100 text-font'>
       <div className='lg:hidden'>
           <label tabIndex={0} className=' lg:hidden '>
             <svg
@@ -71,7 +71,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className={`flex flex-col gap-2 bg-orange-400 mt-3 z-1 lg:hidden shadow bg-base-100 rounded-md w-52 ${showNavLinks ? 'px-2 py-3' : 'p-0'}`}
+            className={`flex flex-col gap-2 bg-orange-400 mt-3 z-1 lg:hidden shadow  rounded-md w-52 ${showNavLinks ? 'px-2 py-3' : 'p-0'}`}
 
           >
             {showNavLinks && navData}
