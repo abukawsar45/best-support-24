@@ -4,7 +4,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   const [showNavLinks, setShowNavLinks] =useState(false);
-  console.log(showNavLinks)
+  // console.log(showNavLinks)
   const navData = (
     <>
       <li onClick={()=>setShowNavLinks(!showNavLinks)}>
