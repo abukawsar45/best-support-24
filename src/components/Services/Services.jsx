@@ -8,6 +8,9 @@ import image5 from '../../assets/image5.webp'
 import image6 from '../../assets/image6.webp'
 import image7 from '../../assets/image7.webp'
 import image8 from '../../assets/image8.webp'
+import { BsFacebook,BsTwitter, BsLinkedin, BsInstagram, BsIndent} from "react-icons/bs";
+import { Link } from 'react-router-dom';
+
 
 
 const Services = () => {
@@ -20,10 +23,10 @@ const Services = () => {
           <h1 className=' text-4xl lg:text-6xl font-bold custom-font my-2 md:my-8'>
             We build digital <br /><span className='text-red-700'>for a living</span>
           </h1>
-          <p className='my-2 md:my-4 lg:my-6'>
+          <p className=' my-2 md:my-4 '>
             Codigo comprises a team of brilliant minds and innovative individuals who create digital products people love to use.
           </p>
-          <p className='my-2 md:my-4 lg:my-6'>
+          <p className=' my-2 md:my-4'>
             We22 believe that seamless, user-centric and meaningful experiences transcend mediums and touchpoints.
           </p>
         </div>
@@ -39,7 +42,7 @@ const Services = () => {
               <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
                 <h5 className='my-2 text-xs font-semibold'>User Experiences</h5>
                 <h3 className='my-2 text-2xl font-bold'>We Are All Users</h3>
-                <p className='my-4'>
+                <p className=' my-2'  >
                   With over 200 digital projects and counting, we get what users want and
                   need pretty easily. UX is the core to everything we build. In Codigo, we
                   take user research, competitive analysis, wireframes, user flows, content
@@ -65,7 +68,7 @@ const Services = () => {
               {/*  */}
             </div>
             <div className="md:hidden">
-              <p className='-my-4'>
+              <p className='text-slate-100 my-2'  >
                 With over 200 digital projects and counting, we get what users want and
                 need pretty easily. UX is the core to everything we build. In Codigo, we
                 take user research, competitive analysis, wireframes, user flows, content
@@ -84,7 +87,7 @@ const Services = () => {
               <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
                 <h5 className='my-2 text-xs font-semibold'>Interface Design</h5>
                 <h3 className='my-2 text-2xl font-bold'>We Live to design</h3>
-                <p className='my-4'>
+                <p className='my-2'  >
                   We have pixel OCD. We keep ourselves constantly inspired with the hype and trends in the design industry to craft gorgeous interactions for your brand.
                 </p>
               </div>
@@ -107,7 +110,7 @@ const Services = () => {
               {/*  */}
             </div>
             <div className="md:hidden">
-              <p className='-my-4'>
+              <p className='text-slate-100 my-2'  >
                 We have pixel OCD. We keep ourselves constantly inspired with the hype and trends in the design industry to craft gorgeous interactions for your brand.
               </p>
             </div>
@@ -124,7 +127,7 @@ const Services = () => {
               <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
                 <h5 className='my-2 text-xs font-semibold'>Consultancy</h5>
                 <h3 className='my-2 text-2xl font-bold'>We can help validate your ideas.</h3>
-                <p className='my-4'>
+                <p className='text-slate-100 my-2'  >
                   Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
                 </p>
               </div>
@@ -148,7 +151,7 @@ const Services = () => {
               {/*  */}
             </div>
             <div className="md:hidden">
-              <p className='-my-4'>
+              <p className='text-slate-100 my-2'  >
                 Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
               </p>
             </div>
@@ -164,7 +167,7 @@ const Services = () => {
               <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
                 <h5 className='my-2 text-xs font-semibold'>Mobile Development</h5>
                 <h3 className='my-2 text-2xl font-bold'>We are Apple & Android friendly.</h3>
-                <p className='my-4'>
+                <p className='text-slate-100 my-2'  >
                   Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
                 </p>
               </div>
@@ -187,7 +190,7 @@ const Services = () => {
               {/*  */}
             </div>
             <div className="md:hidden">
-              <p className='-my-4'>
+              <p className='text-slate-100 my-2'  >
                 Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
               </p>
             </div>
@@ -201,10 +204,10 @@ const Services = () => {
               <h3 className='mb-2 text-2xl font-bold'>For bussiness any shape and size</h3>
             </div>
             <div className='text-center flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0  md:mx-auto p-12 z-10 bg-orange-400 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
-              <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
+              <div className={`opacity-0 text-white flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
                 <h5 className='my-2 text-xs font-semibold'>User Experiences</h5>
                 <h3 className='my-2 text-2xl font-bold'>We Are All Users</h3>
-                <p className='my-4'>
+                <p className=' my-2'  >
                   Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
                 </p>
               </div>
@@ -228,7 +231,7 @@ const Services = () => {
               {/*  */}
             </div>
             <div className="md:hidden">
-              <p className='-my-4'>
+              <p className='text-slate-100 my-2'  >
                 Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
               </p>
             </div>
@@ -245,7 +248,7 @@ const Services = () => {
               <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
                 <h5 className='my-2 text-xs font-semibold'>CMS</h5>
                 <h3 className='my-2 text-2xl font-bold'>We give u data.</h3>
-                <p className='my-4'>
+                <p className='text-slate-100 my-2'  >
 All bespoke CMS we build comes with a dashboard so you can monitor the activities on your product. Edit or add content at your convenience - we’ll customise everything to your wants and needs.
                 </p>
               </div>
@@ -268,7 +271,7 @@ All bespoke CMS we build comes with a dashboard so you can monitor the activitie
               {/*  */}
             </div>
             <div className="md:hidden">
-              <p className='-my-4'>
+              <p className='text-slate-100 my-2'  >
                 Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
               </p>
             </div>
@@ -284,7 +287,7 @@ All bespoke CMS we build comes with a dashboard so you can monitor the activitie
               <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
                 <h5 className='my-2 text-xs font-semibold'>User Experiences</h5>
                 <h3 className='my-2 text-2xl font-bold'>We Are All Users</h3>
-                <p className='my-4'>
+                <p className='text-slate-100 my-2'  >
                   Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
                 </p>
               </div>
@@ -309,7 +312,7 @@ All bespoke CMS we build comes with a dashboard so you can monitor the activitie
               {/*  */}
             </div>
             <div className="md:hidden">
-              <p className='-my-4'>
+              <p className='text-slate-100 my-2'  >
                 Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
               </p>
             </div>
@@ -322,10 +325,10 @@ All bespoke CMS we build comes with a dashboard so you can monitor the activitie
               <h3 className='mb-2 text-2xl font-bold'>For bussiness any shape and size</h3>
             </div>
             <div className='text-center flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0  md:mx-auto p-12 z-10 bg-red-700 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
-              <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
+              <div className={`opacity-0 text-white flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
                 <h5 className='my-2 text-xs font-semibold'>User Experiences</h5>
                 <h3 className='my-2 text-2xl font-bold'>We Are All Users</h3>
-                <p className='my-4'>
+                <p className='text-white my-2'  >
                   Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
                 </p>
               </div>
@@ -349,15 +352,122 @@ All bespoke CMS we build comes with a dashboard so you can monitor the activitie
               {/*  */}
             </div>
             <div className="md:hidden">
-              <p className='-my-4'>
+              <p className='text-slate-100 my-2'  >
                 Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
               </p>
             </div>
 
           </div>
-
+       
         </div>
       </div>
+
+      {/*  */}
+       <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+        <Link
+          to=""
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Docs{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              <BsIndent />
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Find in-depth information about Next.js features and API.
+          </p>
+        </Link>
+        <hr className='md:hidden w-full border-gray-300 mt-4' />
+
+        <Link
+          to=""
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Learn{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              <BsIndent />
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Learn about Next.js in an interactive course with&nbsp;quizzes!
+          </p>
+        </Link>
+        <hr className='md:hidden w-full border-gray-300 mt-4' />
+
+        <Link
+          to=""
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Templates{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              <BsIndent />
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Explore the Next.js 13 playground.
+          </p>
+        </Link>
+    <hr className='md:hidden w-full border-gray-300 mt-4' />
+        <Link
+          to=""
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Deploy{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              <BsIndent />
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </Link>
+        <hr className='md:hidden w-full border-gray-300 mt-4' />
+        <Link
+          to=""
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Tech for Hire{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              <BsIndent />
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Hire experienced tech talents
+          </p>
+        </Link>
+      </div>
+      {/*  */ }
+        
+      {/*  */}
+
+      <footer className='my-4 md:my-8 lg:my-12'>
+        <div className="flex justify-center items-center gap-5">
+          <Link> <span><BsFacebook className="text-2xl hover:text-blue-500"/></span> </Link>
+          <Link> <span><BsTwitter className="text-2xl hover:text-blue-500"/></span> </Link>
+          <Link> <span><BsInstagram className="text-2xl hover:text-blue-500"/></span> </Link>
+          <Link> <span><BsLinkedin className="text-2xl hover:text-blue-500"/></span> </Link>
+
+        </div>
+        <div className="my-4 text-center">
+          <p className='text-zinc-700 my-2' >Copyright  &#169; Codigo - Mobile App Developer Singapore</p>
+          <p className='text-zinc-700 my-2' >+65 6455 9790 • 24 Sin Ming Lane, Midview City #04-91 Singapore 573970</p>
+        </div>
+    </footer>
     </div>
   );
 };
