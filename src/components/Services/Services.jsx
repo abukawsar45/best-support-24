@@ -11,6 +11,7 @@ import image8 from '../../assets/image8.webp'
 
 
 const Services = () => {
+  console.log('object')
   return (
     <div className='my-4 md:my-8 lg:my-20 mx-2 md:mx-4 lg:mx-8 '>
       <div>
@@ -23,7 +24,7 @@ const Services = () => {
             Codigo comprises a team of brilliant minds and innovative individuals who create digital products people love to use.
           </p>
           <p className='my-2 md:my-4 lg:my-6'>
-            We believe that seamless, user-centric and meaningful experiences transcend mediums and touchpoints.
+            We22 believe that seamless, user-centric and meaningful experiences transcend mediums and touchpoints.
           </p>
         </div>
         {/* animation section */}
@@ -46,7 +47,7 @@ const Services = () => {
                 </p>
               </div>
               <img className='absolute md:px-12 md:bottom-[25%] w-2/4  md:w-auto   md:group-hover:mx-auto  md:group-hover:-bottom-[30%]  md:group-hover:-translate-y-[-10%] md:group-hover:transition-transform duration-500 ease-in '
-                src={image1} alt="" />
+                src={image1} alt={image1} />
 
 
             </div>
@@ -114,53 +115,246 @@ const Services = () => {
           </div>
 
           {/* 3rdd */}
-          <div className='relative mt-4 mb-2  md:w-full lg:w-[3/4] md:h-full lg:h-[3/4]  group '>
+          <div className='relative  mt-4 mb-2  md:w-full lg:w-[3/4] md:h-full lg:h-[3/4]  group '>
             <div className="md:hidden">
               <h5 className='mt-2 text-xl font-semibold'>User Experiences</h5>
               <h3 className='mb-2 text-2xl font-bold'>We Are All Users</h3>
             </div>
-            <div className='text-center flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0  md:mx-auto p-12 z-10 bg-red-500 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
+            <div className='text-center text-white flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0  md:mx-auto p-12 z-10 bg-red-500 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
               <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
-                <h5 className='my-2 text-xs font-semibold'>User Experiences</h5>
-                <h3 className='my-2 text-2xl font-bold'>We Are All Users</h3>
+                <h5 className='my-2 text-xs font-semibold'>Consultancy</h5>
+                <h3 className='my-2 text-2xl font-bold'>We can help validate your ideas.</h3>
                 <p className='my-4'>
-                  With over 200 digital projects and counting, we get what users want and
-                  need pretty easily. UX is the core to everything we build. In Codigo, we
-                  take user research, competitive analysis, wireframes, user flows, content
-                  maps very seriously.
+                  Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
                 </p>
               </div>
-              <img className='absolute md:px-12 md:bottom-[25%] w-2/4  md:w-auto   md:group-hover:mx-auto  md:group-hover:-bottom-[30%]  md:group-hover:-translate-y-[-10%] md:group-hover:transition-transform duration-500 ease-in '
+            
+                            <img className='absolute md:px-12 md:bottom-[25%] w-2/4  md:w-auto   md:group-hover:-bottom-[20%] md:group-hover:-translate-x-[-10%]  md:group-hover:-translate-y-[-10%] md:group-hover:transition-transform duration-500 ease-in '
                 src={image3} alt={image3} />
 
 
             </div>
             <div className='hidden md:block'>
-              <div className='my-2 md:group-hover:-mt-40 z-0 md:group-hover:opacity-0 md: group-hover:top-[50%] md:group-hover:-translate-y-[30%] md: group-hover:transition-transform duration-500 ease-out'>
-                <h5 className='text-2xl font-bold text-center'>User Experiences</h5>
+              <div className='my-2 md:group-hover:-mt-40 z-0 md:group-hover:opacity-0 md: group-hover:top-[50%] md:group-hover:-translate-y-[30%] md:group-hover:transition-transform duration-500 ease-out'>
+                <h5 className='text-2xl font-bold text-center'>Consultancy</h5>
 
               </div>
 
               {/*  */}
               <div className='my-2 group group-hover:opacity-0 group-hover:translate-y-[-50%] group-hover:duration-500 group-hover:ease-in'>
-                <h6 className='mt-2 text-center font-light'>How users interact</h6>
+                <h6 className='mt-2 text-center font-light'>We can help validate your ideas.</h6>
               </div>
 
               {/*  */}
             </div>
             <div className="md:hidden">
               <p className='-my-4'>
-                With over 200 digital projects and counting, we get what users want and
-                need pretty easily. UX is the core to everything we build. In Codigo, we
-                take user research, competitive analysis, wireframes, user flows, content
-                maps very seriously.
+                Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
+              </p>
+            </div>
+
+          </div>
+            {/* 4nd */}
+          <div className='relative mt-4 mb-2  md:w-full lg:w-[3/4] md:h-full lg:h-[3/4]  group '>
+            <div className="md:hidden">
+              <h5 className='mt-2 text-xl font-semibold'>Interface Design</h5>
+              <h3 className='mb-2 text-2xl font-bold'>We live to design</h3>
+            </div>
+            <div className='text-center text-white flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0 md:mx-auto p-12 z-10 bg-blue-500 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
+              <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
+                <h5 className='my-2 text-xs font-semibold'>Mobile Development</h5>
+                <h3 className='my-2 text-2xl font-bold'>We are Apple & Android friendly.</h3>
+                <p className='my-4'>
+                  Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
+                </p>
+              </div>
+             <img className='absolute md:px-12 md:bottom-[25%] w-2/4  md:w-auto   md:group-hover:mx-auto md:group-hover:-bottom-[45%]  md:group-hover:-translate-y-[-10%] md:group-hover:transition-transform duration-500 ease-in '
+                src={image4} alt={image4} />
+
+
+            </div>
+            <div className='hidden md:block'>
+              <div className='my-2 md:group-hover:-mt-40 z-0 md:group-hover:opacity-0 md: group-hover:top-[50%] md:group-hover:-translate-y-[30%] md: group-hover:transition-transform duration-500 ease-out'>
+                <h5 className='text-2xl font-bold text-center'>Mobile Development</h5>
+
+              </div>
+
+              {/*  */}
+              <div className='my-2 group group-hover:opacity-0 group-hover:translate-y-[-50%] group-hover:duration-500 group-hover:ease-in'>
+                <h6 className='mt-2 text-center font-light'>iOS & Android</h6>
+              </div>
+
+              {/*  */}
+            </div>
+            <div className="md:hidden">
+              <p className='-my-4'>
+                Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
               </p>
             </div>
 
           </div>
 
+          {/* 5th */}
+            <div className='relative mt-4 mb-2  md:w-full lg:w-[3/4] md:h-full lg:h-[3/4]  group '>
+            <div className="md:hidden">
+              <h5 className='mt-2 text-xl font-semibold'>Web Developemt</h5>
+              <h3 className='mb-2 text-2xl font-bold'>For bussiness any shape and size</h3>
+            </div>
+            <div className='text-center flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0  md:mx-auto p-12 z-10 bg-orange-400 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
+              <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
+                <h5 className='my-2 text-xs font-semibold'>User Experiences</h5>
+                <h3 className='my-2 text-2xl font-bold'>We Are All Users</h3>
+                <p className='my-4'>
+                  Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
+                </p>
+              </div>
+              <img className='absolute md:group-hover:px-24 md:bottom-[10%]   md:w-auto   md:group-hover:mx-auto -translate-x-[10%] md:group-hover:-bottom-[30%] md:group-hover:-translate-x-[10%]  md:group-hover:translate-y-[-20%] md:group-hover:transition-transform duration-500 ease-in '
+                src={image5} alt={image5} />
 
 
+            </div>
+            <div className='hidden md:block'>
+              <div className='my-2 md:group-hover:-mt-40 z-0 md:group-hover:opacity-0 md: group-hover:top-[50%] md:group-hover:-translate-y-[30%] md: group-hover:transition-transform duration-500 ease-out'>
+                <h5 className='text-2xl font-bold text-center'>Web Development
+</h5>
+
+              </div>
+
+              {/*  */}
+              <div className='my-2 group group-hover:opacity-0 group-hover:translate-y-[-50%] group-hover:duration-500 group-hover:ease-in'>
+                <h6 className='mt-2 text-center font-light'>We weave front-end magic.</h6>
+              </div>
+
+              {/*  */}
+            </div>
+            <div className="md:hidden">
+              <p className='-my-4'>
+                Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
+              </p>
+            </div>
+
+          </div>
+          {/* 6th */}
+           
+    <div className='relative mt-4 mb-2  md:w-full lg:w-[3/4] md:h-full lg:h-[3/4]  group '>
+            <div className="md:hidden">
+              <h5 className='mt-2 text-xl font-semibold'>Interface Design</h5>
+              <h3 className='mb-2 text-2xl font-bold'>We live to design</h3>
+            </div>
+            <div className='text-center text-white flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0 md:mx-auto p-12 z-10 bg-green-500 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
+              <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
+                <h5 className='my-2 text-xs font-semibold'>CMS</h5>
+                <h3 className='my-2 text-2xl font-bold'>We give u data.</h3>
+                <p className='my-4'>
+All bespoke CMS we build comes with a dashboard so you can monitor the activities on your product. Edit or add content at your convenience - we’ll customise everything to your wants and needs.
+                </p>
+              </div>
+             <img className='absolute md:px-12 md:bottom-[25%] w-2/4  md:w-auto   md:group-hover:mx-auto md:group-hover:-bottom-[45%]  md:group-hover:-translate-y-[5%] md:group-hover:transition-transform duration-500 ease-in '
+                src={image6} alt={image6} />
+
+
+            </div>
+            <div className='hidden md:block'>
+              <div className='my-2 md:group-hover:-mt-40 z-0 md:group-hover:opacity-0 md: group-hover:top-[50%] md:group-hover:-translate-y-[30%] md: group-hover:transition-transform duration-500 ease-out'>
+                <h5 className='text-2xl font-bold text-center'>CMS</h5>
+
+              </div>
+
+              {/*  */}
+              <div className='my-2 group group-hover:opacity-0 group-hover:translate-y-[-50%] group-hover:duration-500 group-hover:ease-in'>
+                <h6 className='mt-2 text-center font-light'>Manage your own content</h6>
+              </div>
+
+              {/*  */}
+            </div>
+            <div className="md:hidden">
+              <p className='-my-4'>
+                Ready to take the first step? Let us help with a minimum viable product. Tap on our brains and experience to create a semi-product to test the waters. Consult us on user experience, how the product could look like and turn it into a rapid prototype.
+              </p>
+            </div>
+
+          </div>
+          {/* 7th */}
+             <div className='relative mt-4 mb-2  md:w-full lg:w-[3/4] md:h-full lg:h-[3/4]  group '>
+            <div className="md:hidden">
+              <h5 className='mt-2 text-xl font-semibold'>Web Developemt</h5>
+              <h3 className='mb-2 text-2xl font-bold'>For bussiness any shape and size</h3>
+            </div>
+            <div className='text-center text-white flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0  md:mx-auto p-12 z-10 bg-orange-800 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
+              <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
+                <h5 className='my-2 text-xs font-semibold'>User Experiences</h5>
+                <h3 className='my-2 text-2xl font-bold'>We Are All Users</h3>
+                <p className='my-4'>
+                  Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
+                </p>
+              </div>
+              <img className='absolute -bottom-1/4 md:bottom-[30%] md:w-auto  md:mx-auto  md:group-hover:mx-auto md:group-hover:-bottom-[30%]   md:group-hover:translate-y-[-20%] md:group-hover:transition-transform duration-500 ease-in '
+                src={ image7 } alt={ image5 } />
+              {/*  */}
+
+
+            </div>
+            <div className='hidden md:block'>
+              <div className='my-2 md:group-hover:-mt-40 z-0 md:group-hover:opacity-0 md: group-hover:top-[50%] md:group-hover:-translate-y-[30%] md: group-hover:transition-transform duration-500 ease-out'>
+                <h5 className='text-2xl font-bold text-center'>Web Development
+</h5>
+
+              </div>
+
+              {/*  */}
+              <div className='my-2 group group-hover:opacity-0 group-hover:translate-y-[-50%] group-hover:duration-500 group-hover:ease-in'>
+                <h6 className='mt-2 text-center font-light'>We weave front-end magic.</h6>
+              </div>
+
+              {/*  */}
+            </div>
+            <div className="md:hidden">
+              <p className='-my-4'>
+                Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
+              </p>
+            </div>
+
+          </div>
+          {/* 8th */}
+          <div className='relative mt-4 mb-2  md:w-full lg:w-[3/4] md:h-full lg:h-[3/4]  group '>
+            <div className="md:hidden">
+              <h5 className='mt-2 text-xl font-semibold'>Web Developemt</h5>
+              <h3 className='mb-2 text-2xl font-bold'>For bussiness any shape and size</h3>
+            </div>
+            <div className='text-center flex h-[200px] md:h-96 lg:h-[400px] w-[200px] md:w-96 lg:w-[400px] bottom-0  md:mx-auto p-12 z-10 bg-red-700 scale-50 md:group-hover:scale-100  transition-transform origin-center rounded-[50%] duration-500 ease-in'>
+              <div className={`opacity-0 flex flex-col justify-center md:group-hover:opacity-100 transition-opacity duration-300`}>
+                <h5 className='my-2 text-xs font-semibold'>User Experiences</h5>
+                <h3 className='my-2 text-2xl font-bold'>We Are All Users</h3>
+                <p className='my-4'>
+                  Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
+                </p>
+              </div>
+              <img className='absolute md:group-hover:px-24 md:bottom-[10%]   md:w-auto   md:group-hover:mx-auto -translate-x-[10%] md:group-hover:-bottom-[30%] md:group-hover:-translate-x-[10%]  md:group-hover:translate-y-[-20%] md:group-hover:transition-transform duration-500 ease-in '
+                src={image8} alt={image5} />
+
+
+            </div>
+            <div className='hidden md:block'>
+              <div className='my-2 md:group-hover:-mt-40 z-0 md:group-hover:opacity-0 md: group-hover:top-[50%] md:group-hover:-translate-y-[30%] md: group-hover:transition-transform duration-500 ease-out'>
+                <h5 className='text-2xl font-bold text-center'>Web Development
+</h5>
+
+              </div>
+
+              {/*  */}
+              <div className='my-2 group group-hover:opacity-0 group-hover:translate-y-[-50%] group-hover:duration-500 group-hover:ease-in'>
+                <h6 className='mt-2 text-center font-light'>We weave front-end magic.</h6>
+              </div>
+
+              {/*  */}
+            </div>
+            <div className="md:hidden">
+              <p className='-my-4'>
+                Web portals, microsites (yes, they still exist), web apps - responsive, powered by WordPress or supported by a bespoke CMS. No screen sizes scare us, only IE does.
+              </p>
+            </div>
+
+          </div>
 
         </div>
       </div>
